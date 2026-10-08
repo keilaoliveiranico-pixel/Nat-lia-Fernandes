@@ -1,0 +1,58 @@
+{
+  "projectName": "teste-de-site-de-cliente-1",
+  "framework": "React 18 + Vite + Tailwind CSS",
+  "architecturalDecisions": [],
+  "activeWorkingSet": [
+    "src/data/physioData.ts",
+    "src/components/Navbar.tsx",
+    "src/components/Hero.tsx",
+    "src/components/About.tsx",
+    "src/components/Services.tsx",
+    "src/components/Differentials.tsx",
+    "src/components/HowItWorks.tsx",
+    "src/components/Testimonials.tsx",
+    "src/components/Gallery.tsx",
+    "src/components/BookingForm.tsx",
+    "src/components/FinalCta.tsx",
+    "src/components/Footer.tsx",
+    "src/components/FloatingWhatsApp.tsx",
+    "src/components/ServiceModal.tsx",
+    "src/components/PrivacyModal.tsx"
+  ],
+  "commitLedger": [
+    {
+      "id": "szVKDZ5mHRYVOssJT00vB",
+      "timestamp": 1791476888903,
+      "prompt": "Crie uma página de vendas profissional, moderna, elegante e totalmente responsiva para a fisioterapeuta **Nat Fernandes**.\n\nInstagram de referência:\nhttps://www.instagram.com/natfernandes_fisio/\n\n**OBJETIVO DO SITE**\n\nCriar uma experiência digital premium para apresentar a profissional, destacar seus serviços, transmitir credibilidade e transformar visitantes em potenciais pacientes por meio de agendamentos no WhatsApp.\n\nO site deve parecer desenvolvido por uma agência especializada em marketing para profissionais da saúde.\n\n### 1. IDENTIDADE VISUAL\n\nCriar uma identidade visual sofisticada, feminina e acolhedora.\n\nPaleta sugerida:\n- Verde sálvia suave\n- Bege claro\n- Branco\n- Tons de areia\n- Verde-escuro para detalhes\n\nUtilizar tipografia elegante, fotografias profissionais, elementos orgânicos e animações suaves.\n\nEvitar aparência de site genérico ou template básico.\n\n### 2. PRIMEIRA SEÇÃO — HERO\n\nCriar uma abertura visual impactante.\n\nUtilizar uma fotografia profissional da fisioterapeuta ao lado do texto principal.\n\nTítulo:\n\n**Seu bem-estar merece um cuidado especial.**\n\nSubtítulo:\n\nCuidado fisioterapêutico humanizado, com atenção às suas necessidades e foco na sua qualidade de vida.\n\nBotão principal:\n\n**AGENDAR MINHA AVALIAÇÃO**\n\nBotão secundário:\n\n**CONHEÇA MEU TRABALHO**\n\nAdicionar elementos visuais delicados, animação de entrada e transições elegantes.\n\n### 3. SOBRE A PROFISSIONAL\n\nTítulo:\n\n**Prazer, sou Nat Fernandes!**\n\nCriar uma seção de apresentação humanizada, com espaço para fotografia profissional.\n\nInserir campos editáveis para:\n- Formação acadêmica\n- Registro CREFITO\n- Especializações\n- Experiência profissional\n- Filosofia de atendimento\n\nTexto inicial:\n\n\"Acredito que cada pessoa possui uma história, necessidades e objetivos únicos. Por isso, meu trabalho é oferecer um atendimento individualizado, baseado em conhecimento, acolhimento e respeito.\"\n\n### 4. SERVIÇOS E TRATAMENTOS\n\nCriar cartões elegantes para apresentar os serviços reais da profissional.\n\nCada cartão deverá conter:\n\n- Fotografia relacionada ao atendimento\n- Nome do serviço\n- Descrição objetiva\n- Benefícios e indicações\n- Botão \"Saiba mais\"\n\nOs serviços devem ser cadastráveis e editáveis, sem presumir especialidades que não tenham sido confirmadas.\n\n### 5. DIFERENCIAIS\n\nTítulo:\n\n**Por que escolher um atendimento individualizado?**\n\nApresentar quatro diferenciais:\n\n01. Atendimento humanizado\n\n02. Avaliação individualizada\n\n03. Planejamento terapêutico personalizado\n\n04. Acompanhamento da evolução\n\nUtilizar ícones minimalistas e animações discretas.\n\n### 6. COMO FUNCIONA O ATENDIMENTO\n\nCriar uma seção visual com três etapas:\n\n**Passo 1 — Agendamento**\n\nEntre em contato pelo WhatsApp e consulte os horários disponíveis.\n\n**Passo 2 — Avaliação**\n\nUma avaliação individual para compreender suas necessidades.\n\n**Passo 3 — Acompanhamento**\n\nPlanejamento e acompanhamento fisioterapêutico conforme seus objetivos e necessidades.\n\nAdicionar botão:\n\n**QUERO AGENDAR MINHA AVALIAÇÃO**\n\n### 7. DEPOIMENTOS\n\nCriar uma seção elegante para depoimentos reais de pacientes.\n\nOs depoimentos devem ser adicionados somente mediante autorização.\n\nNão gerar avaliações fictícias.\n\nUtilizar cartões com apresentação moderna e navegação em carrossel.\n\n### 8. GALERIA PROFISSIONAL\n\nCriar uma galeria para apresentar:\n\n- Ambiente de atendimento\n- Equipamentos\n- Fotografias profissionais\n- Bastidores do trabalho\n\nAdicionar animações suaves ao passar o mouse.\n\n### 9. CHAMADA FINAL PARA AGENDAMENTO\n\nCriar uma seção de destaque com fundo verde-escuro.\n\nTítulo:\n\n**Dê o primeiro passo para cuidar de você.**\n\nTexto:\n\nAgende sua avaliação e conheça um atendimento pensado para suas necessidades.\n\nBotão grande:\n\n**AGENDAR PELO WHATSAPP**\n\n### 10. RODAPÉ\n\nAdicionar:\n\nNat Fernandes | Fisioterapia\n\n- Instagram oficial\n- WhatsApp profissional\n- Endereço do consultório\n- Horário de atendimento\n- Registro CREFITO\n- Política de privacidade\n\n### 11. FUNCIONALIDADES OBRIGATÓRIAS\n\nO site deve possuir:\n\n- Design responsivo para celular, tablet e computador.\n- Botões de WhatsApp funcionais.\n- Link direto para o Instagram.\n- Animações elegantes ao rolar a página.\n- Carregamento rápido.\n- Otimização básica para mecanismos de busca.\n- Formulário de contato funcional, com envio configurável.\n- Galeria de imagens.\n- Menu de navegação fixo.\n- Botão flutuante de WhatsApp.\n- Layout otimizado para conversão.\n- Campos facilmente editáveis.\n\n### 12. DIRETRIZES IMPORTANTES\n\nNão utilizar imagens genéricas de médicos.\n\nPriorizar fotografias reais da fisioterapeuta e do ambiente profissional.\n\nNão inventar especialidades, resultados clínicos, certificações ou depoimentos.\n\nNão prometer cura ou resultados garantidos.\n\nRespeitar as normas éticas de publicidade profissional da fisioterapia.\n\n### RESULTADO ESPERADO\n\nEntregar uma página de vendas completa, funcional, visualmente sofisticada e com aparência de site premium.\n\nO resultado deve transmitir confiança, acolhimento e autoridade profissional.\n\nA página deve estar preparada para publicação na Vercel, com código organizado, imagens otimizadas e excelente experiência em dispositivos móveis.",
+      "summary": "Aqui está a aplicação completa, moderna, elegante e de alto padrão para a fisioterapeuta **Nat Fernandes (@natfernandes_fisio)**, com estética sofisticada em verde sálvia, bege e verde-escuro, respeit",
+      "filesCreated": [
+        "src/data/physioData.ts",
+        "src/components/Navbar.tsx",
+        "src/components/Hero.tsx",
+        "src/components/About.tsx",
+        "src/components/Services.tsx",
+        "src/components/Differentials.tsx",
+        "src/components/HowItWorks.tsx",
+        "src/components/Testimonials.tsx",
+        "src/components/Gallery.tsx",
+        "src/components/BookingForm.tsx",
+        "src/components/FinalCta.tsx",
+        "src/components/Footer.tsx",
+        "src/components/FloatingWhatsApp.tsx",
+        "src/components/ServiceModal.tsx",
+        "src/components/PrivacyModal.tsx",
+        "src/components/Process.tsx",
+        "src/components/CtaSection.tsx",
+        "src/components/AppointmentModal.tsx"
+      ],
+      "filesModified": [
+        "src/index.css",
+        "src/App.tsx",
+        "index.html"
+      ],
+      "filesDeleted": []
+    }
+  ],
+  "createdAt": 1791476888906,
+  "updatedAt": 1791476888911
+}

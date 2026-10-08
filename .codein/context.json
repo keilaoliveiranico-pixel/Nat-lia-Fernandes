@@ -1,0 +1,434 @@
+{
+  "projectName": "Teste-de-Site-de-cliente-1",
+  "framework": "React 18 + TypeScript + Vite + Tailwind CSS",
+  "updatedAt": 1791476888947,
+  "domain": {
+    "title": "Nat Fernandes | Fisioterapia Integrada & Cuidado Humanizado",
+    "tagline": "",
+    "description": "Cuidado fisioterapêutico humanizado, reabilitação traumato-ortopédica, terapia manual e prevenção com foco na sua qualidade de vida. Agende sua avaliação com Nat Fernandes.",
+    "dataEntities": [
+      {
+        "file": "src/data/physioData.ts",
+        "name": "CLINIC_INFO",
+        "itemCount": 1,
+        "summary": "Coleção de dados estruturados (CLINIC_INFO)"
+      },
+      {
+        "file": "src/data/physioData.ts",
+        "name": "DIFFERENTIALS_DATA",
+        "itemCount": 1,
+        "summary": "Coleção de dados estruturados (DIFFERENTIALS_DATA)"
+      },
+      {
+        "file": "src/data/physioData.ts",
+        "name": "HOW_IT_WORKS_STEPS",
+        "itemCount": 3,
+        "summary": "Coleção de dados estruturados (HOW_IT_WORKS_STEPS)"
+      },
+      {
+        "file": "src/data/physioData.ts",
+        "name": "ETHICAL_NOTE",
+        "summary": "Coleção de dados estruturados (ETHICAL_NOTE)"
+      }
+    ],
+    "features": []
+  },
+  "components": [
+    {
+      "relPath": "src/App.tsx",
+      "name": "App",
+      "imports": [
+        "src/components/Navbar.tsx",
+        "src/components/Hero.tsx",
+        "src/components/About.tsx",
+        "src/components/Services.tsx",
+        "src/components/Differentials.tsx",
+        "src/components/HowItWorks.tsx",
+        "src/components/Testimonials.tsx",
+        "src/components/Gallery.tsx",
+        "src/components/BookingForm.tsx",
+        "src/components/FinalCta.tsx",
+        "src/components/Footer.tsx",
+        "src/components/FloatingWhatsApp.tsx",
+        "src/components/ServiceModal.tsx",
+        "src/components/PrivacyModal.tsx",
+        "src/data/physioData.ts"
+      ],
+      "importedBy": [
+        "src/main.tsx"
+      ],
+      "description": "Componente raiz da aplicação (orquestra layout, estado global e todas as seções)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/About.tsx",
+      "name": "About",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/card.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Seção Sobre nós / História da marca",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/AppointmentModal.tsx",
+      "name": "AppointmentModal",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/input.tsx"
+      ],
+      "importedBy": [],
+      "description": "Modal/Dialog interativo (AppointmentModal)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/BookingForm.tsx",
+      "name": "BookingForm",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/input.tsx",
+        "src/components/ui/card.tsx",
+        "src/data/physioData.ts"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (BookingForm)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/CtaSection.tsx",
+      "name": "CtaSection",
+      "imports": [
+        "src/components/ui/button.tsx"
+      ],
+      "importedBy": [],
+      "description": "Componente React modular (CtaSection)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Differentials.tsx",
+      "name": "Differentials",
+      "imports": [
+        "src/components/ui/badge.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (Differentials)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/FinalCta.tsx",
+      "name": "FinalCta",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/data/physioData.ts"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (FinalCta)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/FloatingWhatsApp.tsx",
+      "name": "FloatingWhatsApp",
+      "imports": [
+        "src/data/physioData.ts"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (FloatingWhatsApp)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Footer.tsx",
+      "name": "Footer",
+      "imports": [
+        "src/data/physioData.ts"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Rodapé com links, direitos, redes sociais e informações de contato",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Gallery.tsx",
+      "name": "Gallery",
+      "imports": [
+        "src/components/ui/badge.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (Gallery)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Hero.tsx",
+      "name": "Hero",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/badge.tsx",
+        "src/data/physioData.ts"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Seção Hero principal (headline, chamada de ação, banners e destaques do produto)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/HowItWorks.tsx",
+      "name": "HowItWorks",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/badge.tsx",
+        "src/data/physioData.ts"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (HowItWorks)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Navbar.tsx",
+      "name": "Navbar",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/badge.tsx",
+        "src/data/physioData.ts"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Cabeçalho e barra de navegação global com links e ações",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/PrivacyModal.tsx",
+      "name": "PrivacyModal",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/data/physioData.ts"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Modal/Dialog interativo (PrivacyModal)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Process.tsx",
+      "name": "Process",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/badge.tsx"
+      ],
+      "importedBy": [],
+      "description": "Componente React modular (Process)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/ServiceModal.tsx",
+      "name": "ServiceModal",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/data/physioData.ts"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Modal/Dialog interativo (ServiceModal)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Services.tsx",
+      "name": "Services",
+      "imports": [
+        "src/components/ui/card.tsx",
+        "src/components/ui/button.tsx",
+        "src/components/ui/badge.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (Services)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Testimonials.tsx",
+      "name": "Testimonials",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/badge.tsx",
+        "src/components/ui/card.tsx",
+        "src/data/physioData.ts"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Depoimentos de clientes e prova social",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/ui/badge.tsx",
+      "name": "badge",
+      "imports": [
+        "src/lib/utils.ts"
+      ],
+      "importedBy": [
+        "src/components/Differentials.tsx",
+        "src/components/Gallery.tsx",
+        "src/components/Hero.tsx",
+        "src/components/HowItWorks.tsx",
+        "src/components/Navbar.tsx",
+        "src/components/Process.tsx",
+        "src/components/Services.tsx",
+        "src/components/Testimonials.tsx"
+      ],
+      "description": "Componente base de UI reutilizável (badge)",
+      "isUiBase": true
+    },
+    {
+      "relPath": "src/components/ui/button.tsx",
+      "name": "button",
+      "imports": [
+        "src/lib/utils.ts"
+      ],
+      "importedBy": [
+        "src/components/About.tsx",
+        "src/components/AppointmentModal.tsx",
+        "src/components/BookingForm.tsx",
+        "src/components/CtaSection.tsx",
+        "src/components/FinalCta.tsx",
+        "src/components/Hero.tsx",
+        "src/components/HowItWorks.tsx",
+        "src/components/Navbar.tsx",
+        "src/components/PrivacyModal.tsx",
+        "src/components/Process.tsx",
+        "src/components/ServiceModal.tsx",
+        "src/components/Services.tsx",
+        "src/components/Testimonials.tsx"
+      ],
+      "description": "Componente base de UI reutilizável (button)",
+      "isUiBase": true
+    },
+    {
+      "relPath": "src/components/ui/card.tsx",
+      "name": "card",
+      "imports": [
+        "src/lib/utils.ts"
+      ],
+      "importedBy": [
+        "src/components/About.tsx",
+        "src/components/BookingForm.tsx",
+        "src/components/Services.tsx",
+        "src/components/Testimonials.tsx"
+      ],
+      "description": "Componente base de UI reutilizável (card)",
+      "isUiBase": true
+    },
+    {
+      "relPath": "src/components/ui/input.tsx",
+      "name": "input",
+      "imports": [
+        "src/lib/utils.ts"
+      ],
+      "importedBy": [
+        "src/components/AppointmentModal.tsx",
+        "src/components/BookingForm.tsx"
+      ],
+      "description": "Componente base de UI reutilizável (input)",
+      "isUiBase": true
+    },
+    {
+      "relPath": "src/data/physioData.ts",
+      "name": "physioData",
+      "imports": [],
+      "importedBy": [
+        "src/App.tsx",
+        "src/components/BookingForm.tsx",
+        "src/components/FinalCta.tsx",
+        "src/components/FloatingWhatsApp.tsx",
+        "src/components/Footer.tsx",
+        "src/components/Hero.tsx",
+        "src/components/HowItWorks.tsx",
+        "src/components/Navbar.tsx",
+        "src/components/PrivacyModal.tsx",
+        "src/components/ServiceModal.tsx",
+        "src/components/Testimonials.tsx"
+      ],
+      "description": "Componente React modular (physioData)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/lib/utils.ts",
+      "name": "utils",
+      "imports": [],
+      "importedBy": [
+        "src/components/ui/badge.tsx",
+        "src/components/ui/button.tsx",
+        "src/components/ui/card.tsx",
+        "src/components/ui/input.tsx"
+      ],
+      "description": "Componente React modular (utils)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/main.tsx",
+      "name": "main",
+      "imports": [
+        "src/App.tsx"
+      ],
+      "importedBy": [],
+      "description": "Host de montagem React DOM da SPA (#root)",
+      "isUiBase": false
+    }
+  ],
+  "structure": [
+    ".codein/context.json",
+    ".codein/history.json",
+    ".codein/state.json",
+    "index.html",
+    "package-lock.json",
+    "package.json",
+    "postcss.config.js",
+    "src/App.tsx",
+    "src/components/About.tsx",
+    "src/components/AppointmentModal.tsx",
+    "src/components/BookingForm.tsx",
+    "src/components/CtaSection.tsx",
+    "src/components/Differentials.tsx",
+    "src/components/FinalCta.tsx",
+    "src/components/FloatingWhatsApp.tsx",
+    "src/components/Footer.tsx",
+    "src/components/Gallery.tsx",
+    "src/components/Hero.tsx",
+    "src/components/HowItWorks.tsx",
+    "src/components/Navbar.tsx",
+    "src/components/PrivacyModal.tsx",
+    "src/components/Process.tsx",
+    "src/components/ServiceModal.tsx",
+    "src/components/Services.tsx",
+    "src/components/Testimonials.tsx",
+    "src/components/ui/badge.tsx",
+    "src/components/ui/button.tsx",
+    "src/components/ui/card.tsx",
+    "src/components/ui/input.tsx",
+    "src/data/physioData.ts",
+    "src/index.css",
+    "src/lib/utils.ts",
+    "src/main.tsx",
+    "tailwind.config.js",
+    "tsconfig.json",
+    "vite.config.ts"
+  ]
+}
